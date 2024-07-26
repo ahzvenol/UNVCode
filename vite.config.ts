@@ -1,19 +1,11 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { Plugin as importToCDN } from 'vite-plugin-cdn-import'
 import { resolve } from 'path'
+import { viteSingleFile } from 'vite-plugin-singlefile'
 
 export default defineConfig(({ command }) => ({
-  base: '/UNVCode/',
-  plugins: [vue(), importToCDN({
-    modules: [
-      {
-        name: 'axios',
-        var: 'axios',
-        path: 'https://cdn.bootcdn.net/ajax/libs/axios/1.2.2/axios.min.js'
-      },
-    ]
-  })],
+  // base: '/UNVCode/',
+  plugins: [vue(), viteSingleFile()],
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src")

@@ -16,7 +16,7 @@
             如果你觉得幼女Code对你的工作或学习有所帮助，欢迎给作者送一些幼女过来
         </p>
         <p>
-            <a href='https://github.com/RimoChan/unvcode' target='_blank'>Link</a> | MPL-2.0
+            <a href='https://github.com/ahzvenol/UNVCode' target='_blank'>Link</a> | MPL-2.0
         </p>
     </div>
 </template>

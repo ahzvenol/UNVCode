@@ -11,7 +11,7 @@
   "dependencies": {
     "@types/node": "^20.4.10",
     "rollup": "^3.28.0",
-    "vite-plugin-cdn-import": "^0.3.5",
+    "vite-plugin-singlefile": "^2.0.2",
     "vue": "^3.3.4"
   },
   "devDependencies": {
